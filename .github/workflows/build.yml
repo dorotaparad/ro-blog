@@ -31,8 +31,6 @@ jobs:
     - name: Run build
       run: yarn build
 
-    - name: Create RSS file
-      run: yarn rss
     - name: deploy build to github
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
