@@ -35,60 +35,57 @@ const config: Config = {
     [
       'classic',
       {
-        pages: {
-          // path: '/src/pages',
-          // routeBasePath: '/'
-        },
-        docs: {
-          sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/dorotaparad/ro-blog/tree/main',
-          showLastUpdateTime: true
-        },
-        blog: {
-          blogTitle: "Ro's Blog - Blog Title",
-          routeBasePath: 'posts',
-          path: 'posts',
-          showReadingTime: false,
-          feedOptions: {
-            type: 'all',
-            xslt: true,
-            // title: '',
-            // description: ''
-          },
-          editUrl: 'https://github.com/dorotaparad/ro-blog/tree/main',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'throw',
-          onUntruncatedBlogPosts: 'ignore',
-          blogSidebarTitle: ' ',
-          blogSidebarCount: 'ALL',
-          postsPerPage: 26
-        },
-        theme: {
-          customCss: './src/css/custom.scss',
-        },
-        sitemap: {
-          lastmod: 'date',
-          changefreq: 'weekly',
-          priority: 0.5,
-          ignorePatterns: ['/tags/**'],
-          filename: 'sitemap.xml',
-          createSitemapItems: async (params) => {
-            const {defaultCreateSitemapItems, ...rest} = params;
-            const items = await defaultCreateSitemapItems(rest);
-            return items.filter((item) => !item.url.includes('/page/'));
-          },
-        },
+        // pages: {
+        //   // path: '/src/pages',
+        //   // routeBasePath: '/'
+        // },
+        // docs: {
+        //   sidebarPath: './sidebars.ts',
+        //   editUrl: 'https://github.com/dorotaparad/ro-blog/tree/main',
+        //   showLastUpdateTime: true
+        // },
+        // blog: {
+        //   blogTitle: "Ro's Blog - Blog Title",
+        //   routeBasePath: 'posts',
+        //   path: 'posts',
+        //   showReadingTime: false,
+        //   feedOptions: {
+        //     type: 'all',
+        //     xslt: true,
+        //     // title: '',
+        //     // description: ''
+        //   },
+        //   editUrl: 'https://github.com/dorotaparad/ro-blog/tree/main',
+        //   // Useful options to enforce blogging best practices
+        //   onInlineTags: 'warn',
+        //   onInlineAuthors: 'throw',
+        //   onUntruncatedBlogPosts: 'ignore',
+        //   blogSidebarTitle: ' ',
+        //   blogSidebarCount: 'ALL',
+        //   postsPerPage: 26
+        // },
+        // theme: {
+        //   customCss: './src/css/custom.scss',
+        // },
+        // sitemap: {
+        //   lastmod: 'date',
+        //   changefreq: 'weekly',
+        //   priority: 0.5,
+        //   ignorePatterns: ['/tags/**'],
+        //   filename: 'sitemap.xml',
+        //   createSitemapItems: async (params) => {
+        //     const {defaultCreateSitemapItems, ...rest} = params;
+        //     const items = await defaultCreateSitemapItems(rest);
+        //     return items.filter((item) => !item.url.includes('/page/'));
+        //   },
+        // },
       } satisfies Preset.Options,
     ],
   ],
 
-  clientModules: ['./src/scripts/fontawesome.ts'],
-
-  plugins: [
-    require.resolve('docusaurus-plugin-image-zoom'),
-    'docusaurus-plugin-sass'
-  ],
+  // plugins: [
+  //   require.resolve('docusaurus-plugin-image-zoom')
+  // ],
 
   themeConfig: {
     // Replace with your project's social card
@@ -98,67 +95,13 @@ const config: Config = {
       logo: {
         alt: "Ro's Blog",
         src: 'img/logo.jpg',
-      },
-      items: [
-        {to: '/posts', label: 'Posts', position: 'left'}
-        // {to: '/docs/guests', label: 'Request Appearance', position: 'left'}
-      ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Blog',
-          items: [
-            {
-              label: 'Posts',
-              to: '/posts',
-            },
-          ],
-        },
-        // {
-        //   title: 'Community',
-        //   items: [
-        //     {
-        //       label: 'Discord',
-        //       href: 'https://adventuresindevops.com/join/',
-        //     },
-        //     {
-        //       label: 'RSS Feed',
-        //       href: 'https://adventuresindevops.com/episodes/rss.xml',
-        //     }
-        //   ],
-        // },
-        {
-          title: 'Connect',
-          items: [
-            {
-              label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/dorota-parad',
-            },
-            {
-              label: 'Bluesky',
-              href: 'https://bsky.app/profile/dorotaparad.bsky.social',
-            }
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Dorota Parad`,
+      }
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.okaidia
       // https://docusaurus.io/docs/next/markdown-features/code-blocks#supported-languages
       // additionalLanguages: ['csharp', 'java', 'ruby', 'php', 'json', 'diff']
-    },
-    zoom: {
-      selector: '.markdown p > img',
-      background: {
-        light: 'rgba(0,0,0,.5)',
-        dark: 'rgba(0,0,0,.5)'
-      },
-      // https://github.com/francoischalifour/medium-zoom?tab=readme-ov-file#options
-      config: {}
     }
 
   } satisfies Preset.ThemeConfig,
