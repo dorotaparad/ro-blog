@@ -1,0 +1,14 @@
+{
+    "search.exclude": {
+        "**/lib": true,
+        "lib/*": true
+    },
+    "cSpell.words": [
+
+    ],
+    "files.exclude": {
+        "**/lib": true,
+        "dist/**": true,
+        "lib/*": true
+    }
+}

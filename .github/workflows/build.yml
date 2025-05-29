@@ -1,0 +1,41 @@
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+    - 'release/**'
+
+
+permissions:
+  contents: write
+  pull-requests: read
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        registry-url: 'https://registry.npmjs.org'
+
+    - name: Install packages
+      run: yarn
+
+    - name: Run Setup
+      run: yarn setup
+    - name: Run build
+      run: yarn build
+
+    - name: Create RSS file
+      run: yarn rss
+    - name: deploy build to github
+      uses: JamesIves/github-pages-deploy-action@4.1.4
+      with:
+        branch: production
+        folder: build
+        clean: true
