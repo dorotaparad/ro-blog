@@ -33,7 +33,7 @@ function BlogListPageMetadata(props: Props): ReactNode {
 function BlogListPageContent(props: Props): ReactNode {
   const {metadata, items, sidebar} = props;
   return (
-    <BlogLayout sidebar={sidebar}>
+    <BlogLayout>
       <BlogPostItems items={items} />
       <BlogListPaginator metadata={metadata} />
     </BlogLayout>
