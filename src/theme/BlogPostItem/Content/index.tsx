@@ -9,12 +9,16 @@ export default function BlogPostItemContent({
   children,
   className,
 }: Props): ReactNode {
-  const {isBlogPostPage} = useBlogPost();
+  const {isBlogPostPage, ...blogPost} = useBlogPost();
+  // const blogPostPropertiesAsString = JSON.stringify(blogPost, null, 2);
+  // console.log(blogPostPropertiesAsString);
+
   return (
     <div
       // This ID is used for the feed generation to locate the main content
       id={isBlogPostPage ? blogPostContainerID : undefined}
       className={clsx('markdown', className)}>
+
       <MDXContent>{children}</MDXContent>
     </div>
   );
