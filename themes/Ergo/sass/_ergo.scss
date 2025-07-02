@@ -30,7 +30,7 @@
 html, body {
     background-color: $background;
     color: $text;
-    font-family: 'Montserrat', 'Raleway', sans-serif;
+    font-family: 'Humanist', 'Lato', sans-serif;
     font-weight: 400;
     z-index: 50;
 }
@@ -382,10 +382,10 @@ nav.pagination {
 .post_container {
     margin: 0 auto;
     margin-top: 130px;
-    padding: 0;
+    padding: 0 10px;
     display: block;
     position: relative;
-    max-width: 625px;
+    max-width: 680px;
     > article {
         margin-bottom: 30px;
         position: relative;
