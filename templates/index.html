@@ -21,8 +21,6 @@
     {% set post_img = page.path ~ page.extra.image %}
     {% endif %}
     <article id="{{page.title}}" class="post_list_item">
-        <img src="{{post_img | default(value=config.extra.banner.default_image)}}"
-            alt="{{page.extra.alt | default(value=config.extra.banner.default_alt)}}">
         <h1 class="article_title">
             <a href="{{page.permalink}}" id="article_link">{{page.title}}</a>
         </h1>
@@ -32,8 +30,15 @@
         word_count=page.word_count,
         read_time=page.reading_time
         ) }}
-        <p class="article_content">{{ page.summary | default(value=page.content | striptags | truncate) | safe }}</p>
-        <a class="button small" href="{{page.permalink}}">Continue Reading →</a>
+        <div class="post_preview">
+            <img src="{{post_img | default(value=config.extra.banner.default_image)}}"
+                alt="{{page.extra.alt | default(value=config.extra.banner.default_alt)}}">
+            <div>
+                <p class="article_content">{{ page.summary | default(value=page.content | striptags | truncate) | safe
+                    }}</p>
+                <a class="button small" href="{{page.permalink}}">Continue Reading →</a>
+            </div>
+        </div>
     </article>
     {% endfor %}
 </section>
