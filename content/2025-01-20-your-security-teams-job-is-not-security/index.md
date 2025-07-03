@@ -1,6 +1,8 @@
 +++
 title = "Your security team’s job is not security"
 category = "security"
+[extra]
+canonical = "https://authress.io/knowledge-base/articles/2025/01/20/your-security-teams-job-is-not-security"
 +++
 
 There is a very common misunderstanding in tech that I keep running into. Many people believe that a person hired by their company who has “security” in their title is there to ensure that your software and operations are secure. It’s especially heartbreaking to see new graduates who studied the topic and are looking for their first job in cybersecurity, full of hopes that they’ll get to fight the baddies, make things better, or at least make sure that software engineers are doing things properly.

@@ -2,18 +2,20 @@
 {% import "macros.html" as macros %}
 
 {% block content %}
-<nav>{% include "languages.html" %}</nav>
 <header class="header">
     {% block header %}
     {% set base_url = get_url(path="/", lang=lang) %}
-    <figure class="user_logo">
-        <a href="{{ base_url }}" style="background-image: url({{config.base_url}}/img/{{config.extra.profile}})"></a>
-    </figure>
-    <h2 class="site_title">{{config.title}}</h2>
-    <div>{{ config.description | as_str | markdown(inline=true) | safe }}</div>
-    {{ macros::social_list(classes="header_list", bsize="small") }}
+    <div>
+    <div>
+        <h2 class="site_title">{{config.title}}</h2>
+        <div class="site_subtitle">{{ config.description | as_str | markdown(inline=true) | safe }}</div>
+    </div>
+    </div>
     {% endblock header %}
 </header>
+<nav>
+    {% include "languages.html" %}
+</nav>
 
 <section class="post_list">
     {% for page in paginator.pages %}
@@ -31,7 +33,7 @@
         read_time=page.reading_time
         ) }}
         <div class="post_preview">
-            <img src="{{post_img | default(value=config.extra.banner.default_image)}}"
+            <img src="{{post_img | default(value=config.extra.banner.default_image) | safe}}"
                 alt="{{page.extra.alt | default(value=config.extra.banner.default_alt)}}">
             <div>
                 <p class="article_content">{{ page.summary | default(value=page.content | striptags | truncate) | safe

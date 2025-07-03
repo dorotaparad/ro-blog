@@ -1,10 +1,8 @@
 +++
 title = "Your source code is not that special"
 category = "security"
-
 [extra]
-image = "test.jpg"
-alt = "This is a test image and bears no relevance"
+canonical = "https://authress.io/knowledge-base/articles/2025/02/03/your-source-code-is-not-that-special"
 +++
 
 Whenever the topic of protecting developer machines comes up, I find myself dismantling the same fallacies over and over again. One of those fallacies goes like this: we must protect our source code! So far so good. Protecting your source code makes sense. But then it turns into: our source code is precious! It is our Intellectual Property! And then: our precious source code is on developers’ machines, we must do everything in our power to protect these machines! And that’s a fallacy.

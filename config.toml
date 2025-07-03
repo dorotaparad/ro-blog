@@ -29,7 +29,7 @@ country_flags = true # Display languages as country flags. Defaults to false.
 
 [extra.banner]
 default_image = "img/default-banner.jpg"
-default_alt = "TODO: fix this"
+default_alt = "Placeholder image: clean, abstract drawing of horizontal lines and circles evoking a vague impression of a diagram or a circuit board"
 
 # Variables from the theme
 [[extra.socials]]
