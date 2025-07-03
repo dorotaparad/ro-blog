@@ -27,6 +27,10 @@ profile = "profile.svg" # the name of the profile picture in static/img/
 color_themes = ["default", "dark"]
 country_flags = true # Display languages as country flags. Defaults to false.
 
+[extra.banner]
+default_image = "img/default-banner.jpg"
+default_alt = "TODO: fix this"
+
 # Variables from the theme
 [[extra.socials]]
 icon = "bluesky"
