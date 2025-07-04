@@ -1,0 +1,32 @@
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+    - 'release/**'
+
+
+permissions:
+  contents: write
+  pull-requests: read
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install packages
+      run: deploy/install.sh
+
+    - name: Run build
+      run: ./zola build
+
+    - name: deploy build to github
+      uses: JamesIves/github-pages-deploy-action@4.1.4
+      with:
+        branch: production
+        folder: public
+        clean: true
