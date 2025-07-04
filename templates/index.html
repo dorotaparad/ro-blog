@@ -13,7 +13,7 @@
         {{ macros::social_list(classes="header_list", bsize="medium") }}
     </div>
     <div>
-        
+
     </div>
     {% endblock header %}
 </header>
@@ -40,8 +40,13 @@
             <img src="{{post_img | default(value=config.extra.banner.default_image) | safe}}"
                 alt="{{page.extra.alt | default(value=config.extra.banner.default_alt)}}">
             <div>
-                <p class="article_content">{{ page.summary | default(value=page.content | striptags | truncate) | safe
-                    }}</p>
+                <p class="article_content">
+                    {%- if page.description %}
+                    {{ page.description | markdown(inline=true) | safe }}
+                    {%- elif page.content %}
+                    {{ page.content | striptags | truncate | safe }}
+                    {%- endif %}
+                </p>
                 <a class="button small" href="{{page.permalink}}">Continue Reading →</a>
             </div>
         </div>
