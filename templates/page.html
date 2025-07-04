@@ -7,16 +7,16 @@
 <nav id="overlord" class="overlord">
   {% set base_url = get_url(path="/", lang=lang) %}
   <div>
-    <a href="{{base_url}}">{{config.title}}<div class="site_subtitle">{{ config.description | as_str |
+    <a class="site_title" href="{{base_url}}">{{config.title}}<div>{{ config.description | as_str |
         markdown(inline=true) | safe }}</div></a>
-
+    {{ macros::social_list(classes="header_list", bsize="small") }}
   </div>
 </nav>
 
 <section class="post_container">
   <article>
     {% block post %}
-    <h1 class="article_title"><a href="{{page.permalink}}" id="article_link">{{ page.title }}</a></h1>
+    <h1 class="article_title">{{ page.title }}</h1>
     {{ macros::frontmatter(classes="frontmatter_page", date=page.date, word_count=page.word_count,
     read_time=page.reading_time) }}
     {% if page.extra.image is defined %}

@@ -1,6 +1,6 @@
 # The URL the site will be built for
 base_url = "https://dorotaparad.ch"
-title = "Thinking in systems"
+title = "Value Added Thoughts"
 description = "Dorota Parad's blog"
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -34,15 +34,15 @@ default_alt = "Placeholder image: clean, abstract drawing of horizontal lines an
 # Variables from the theme
 [[extra.socials]]
 icon = "bluesky"
-icon_class = "fab"
-display = "insipx"
-uri = "https://twitter.com/insipx"
+icon_class = "fa-brands fa-bluesky"
+display = ""
+uri = "https://bsky.app/profile/dorotaparad.bsky.social"
 
 [[extra.socials]]
-icon = "envelope"
-icon_class = "fas"
-display = "say hello"
-uri = "mailto:github@andrewplaza.dev?subject=hi"
+icon = "linkedin"
+icon_class = "fa-brands fa-linkedin"
+display = ""
+uri = "https://www.linkedin.com/in/dorota-parad/"
 
 [extra.font_awesome]
-kit = "e307e34624"
+kit = "fc233bb6f8"

@@ -41,6 +41,8 @@ ul.social_list {
     display: inline-block;
     position: relative;
     padding: 0;
+    margin: 0;
+    margin-top: 15px;
     > li {
         margin: 0.10em 0.10em 0.10em 0.10em;
         list-style: none;
@@ -48,7 +50,7 @@ ul.social_list {
         transition: all 0.35s ease-out;
         > a {
             text-decoration: none;
-            color: $text;
+            color: $accent;
             transition: all 0.35s ease-out;
         }
         > i {

@@ -5,11 +5,15 @@
 <header class="header">
     {% block header %}
     {% set base_url = get_url(path="/", lang=lang) %}
-    <div>
-    <div>
-        <h2 class="site_title">{{config.title}}</h2>
-        <div class="site_subtitle">{{ config.description | as_str | markdown(inline=true) | safe }}</div>
+    <div class="header_container">
+        <div>
+            <h2 class="site_title">{{config.title}}</h2>
+            <div class="site_subtitle">{{ config.description | as_str | markdown(inline=true) | safe }}</div>
+        </div>
+        {{ macros::social_list(classes="header_list", bsize="medium") }}
     </div>
+    <div>
+        
     </div>
     {% endblock header %}
 </header>
