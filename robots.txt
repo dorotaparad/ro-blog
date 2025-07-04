@@ -1,4 +1,4 @@
 User-agent: *
+Disallow:
 Allow: /
-
-Sitemap: https://dorataparad.ch/sitemap.xml
+Sitemap: https://dorotaparad.ch/sitemap.xml

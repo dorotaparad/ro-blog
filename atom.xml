@@ -1,109 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-site.example.com/</id>
-    <title>My Site Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-site.example.com/"/>
-    <subtitle>My Site Blog</subtitle>
-    <icon>https://your-docusaurus-site.example.com/img/favicon.ico</icon>
-    <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://your-docusaurus-site.example.com/welcome</id>
-        <link href="https://your-docusaurus-site.example.com/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
-<ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
-</ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://your-docusaurus-site.example.com/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Value Added Thoughts</title>
+    <subtitle>Dorota Parad&#x27;s blog</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://dorotaparad.ch/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://dorotaparad.ch"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-05-05T00:00:00+00:00</updated>
+    <id>https://dorotaparad.ch/atom.xml</id>
+    <entry xml:lang="en">
+        <title>What are startups all about?</title>
+        <published>2025-05-05T00:00:00+00:00</published>
+        <updated>2025-05-05T00:00:00+00:00</updated>
+        
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://linkedin.com/in/yangshun</uri>
-        </author>
-        <category label="Facebook" term="Facebook"/>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
+        
+        <link rel="alternate" type="text/html" href="https://dorotaparad.ch/what-startups-are-about/"/>
+        <id>https://dorotaparad.ch/what-startups-are-about/</id>
+        
+        <content type="html" xml:base="https://dorotaparad.ch/what-startups-are-about/">&lt;p&gt;&lt;em&gt;(disclaimer: when I say “startup” in this article, I mean the Silicon Valley definition or, more precisely, &lt;a href=&quot;https:&#x2F;&#x2F;www.ycombinator.com&#x2F;library&#x2F;En-what-is-a-startup&quot;&gt;Y Combinator definition&lt;&#x2F;a&gt; of “a small, early stage company designed to grow fast (...) 50-100x growth in a year” I recognize this definition applies to a very narrow, specific kind of new businesses, and especially in Europe it’s not necessarily how things are done, but this is the phenomena I’m describing here. Also note that the “growth” in the above definition is ambiguous, but that’s sort of the point.)&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;br&gt;&lt;&#x2F;br&gt;
+Many people in tech look up to Silicon Valley startups, treating their practices and habits as some sort of recipe for success. It stems from fundamental lack of knowledge of how SV startups are run and for what purpose.&lt;&#x2F;p&gt;
+&lt;p&gt;SV startups are not businesses. They’re financial instruments.&lt;&#x2F;p&gt;
+&lt;p&gt;To be considered a unicorn, your company has to fulfil only one condition. Can you guess what it is? I’ll give you some time to think about it.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;br&gt;&lt;&#x2F;br&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;…&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;br&gt;&lt;&#x2F;br&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Is it a huge market share? Nope.
+Is it a large number of users&#x2F;customers? Nope.
+Is it a sweet gigantic pile of revenue? Nope.
+Profit? Hell no.&lt;&#x2F;p&gt;
+&lt;p&gt;The only condition that a company needs to fulfill to be considered a unicorn is that the next round of investors think the company is worth 100x more (give or take) than the previous round of investors. It has nothing to do with the business reality, it’s all down to how the investors feel.&lt;&#x2F;p&gt;
+&lt;p&gt;You may think that investors are rational and they carefully look at all the financial numbers, analyze the market, and after many hours of thoughtful consideration they arrive at the valuation. That would seem like what rich money-people do. If you’re a techie without any business background, I would forgive you for believing that. But you cannot predict a future financial success of a company, not with high certainty. The younger the company, the lower the certainty. This leaves investors with heuristics, or as some of the &lt;a href=&quot;https:&#x2F;&#x2F;fortune.com&#x2F;article&#x2F;mark-andreessen-venture-capitalism-ai-automation-a16z&#x2F;&quot;&gt;famous ones admit freely&lt;&#x2F;a&gt; - with gut-feel and hand-waving. Yes, the founder still needs to show some number go up. It has to be based on something at least somewhat related to our reality. That’s the “growth” that everyone talks about but no one can tell you precisely what aspect of the business is supposed to be growing. As long as the narrative is plausible and sounds exciting, investors will buy it. The investor’s job is not to ensure success, it is to make enough reasonable gambles so that one of them brings a big payout.&lt;&#x2F;p&gt;
+&lt;p&gt;The biggest payout is not when the company is making healthy profit - that takes way too long to accrue. It is when the investors that come after you are willing to pay a lot more per share than you did. It may correlate with revenue, but doesn’t always correlate with profit. (Just for the sake of making it clear: profit = revenue minus cost, it’s what stays in the bank at the end of the day)&lt;&#x2F;p&gt;
+&lt;p&gt;So the game you’re playing as a VC-fueled Silicon Valley startup founder is not to &lt;strong&gt;be&lt;&#x2F;strong&gt; profitable, or speaking more broadly, successful. It is &lt;strong&gt;convincing&lt;&#x2F;strong&gt; enough investors that you &lt;strong&gt;will be&lt;&#x2F;strong&gt; successful. It isn’t to actually make money, that’s a problem of tomorrow’s tomorrow. Right here, right now, the problem boils down to optics of being successful rather than actual success. In fact, moving towards sustainable profitability may tank your valuation, as the next batch of investors may perceive it as “playing it safe”. Safe is not how you win big.&lt;&#x2F;p&gt;
+&lt;p&gt;There used to be an excellent article explaining this on a blog that’s now defunct (here’s a hopefully still active &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;startups&#x2F;comments&#x2F;rrgpcl&#x2F;to_build_a_unicorn_think_like_a_peacock&#x2F;&quot;&gt;Reddit link&lt;&#x2F;a&gt; instead), so let me summarize the main point. In nature, male peacock’s tail is detrimental to survival, yet it evolved as a signal to a potential mate: I am strong because I can survive despite sustaining this useless, costly tail! Startups work the same way - not by being the best businesses or having the best product, but by convincing the investors that they can succeed despite burning ridiculous amounts of cash. If you want to build a unicorn, you must be like a peacock. Which means a good SV startup founder cannot worry about profitability. Instead, they should be spending money on things that make them seem like the best, the biggest, the strongest player in the market. That’s very different than actually being the best, biggest, or strongest. And while it may seem like it’s easier, it isn’t. It’s just a different kind of difficult.&lt;&#x2F;p&gt;
+&lt;p&gt;That’s why we hear a lot about those startups. They’re in the news, spending a lot of money on publicity. They do costly stunts. And since the main game is to convince others of their success, they managed to convince the whole tech industry that they’re doing things “the right way”. How else would they be so successful?&lt;&#x2F;p&gt;
+&lt;p&gt;If the success of a business is defined by “how many people talk about you” or “if investors think you have a lot of potential”, then these companies are indeed very successful. But this has nothing to do with building a great product or being profitable, although a great product or profit may happen as a side effect. Usually it’s one or the other.&lt;&#x2F;p&gt;
+&lt;p&gt;So why should we look at these companies as some sort of role model of how things should be done?&lt;&#x2F;p&gt;
+&lt;p&gt;Now, I don’t think there’s anything wrong with playing the SV startup game. For founders it’s similar to playing in a casino - lots of fun, you lose time and money more often than you gain, but if you manage to win, you win big time. And like casinos, you have very little impact on the outcome at all. Though for investors, it’s a great way to put free money to some use (although in the current market, there’s way less free money to play with). It’s great when it works. But for every success story, there are a hundred failures. That’s part of the deal.&lt;&#x2F;p&gt;
+&lt;p&gt;So let’s not fool ourselves that this is a good way to build a business or even to make great software products. Next time you want to emulate something a Silicon Valley unicorn did, remember - they do it for display, to convince the investors that they can succeed despite their lavish expenses. If that’s not your company’s goal, you’re setting yourself up for disappointment.&lt;&#x2F;p&gt;
+</content>
+        
     </entry>
-    <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/mdx-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
-<!-- -->
-<p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre></div></div>
-<button>Click me!</button>]]></content>
+    <entry xml:lang="en">
+        <title>Your source code is not that special</title>
+        <published>2025-02-03T00:00:00+00:00</published>
+        <updated>2025-02-03T00:00:00+00:00</updated>
+        
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <category label="Docusaurus" term="Docusaurus"/>
+        
+        <link rel="alternate" type="text/html" href="https://dorotaparad.ch/your-source-code-is-not-that-special/"/>
+        <id>https://dorotaparad.ch/your-source-code-is-not-that-special/</id>
+        
+        <content type="html" xml:base="https://dorotaparad.ch/your-source-code-is-not-that-special/">&lt;p&gt;Whenever the topic of protecting developer machines comes up, I find myself dismantling the same fallacies over and over again. One of those fallacies goes like this: we must protect our source code! So far so good. Protecting your source code makes sense. But then it turns into: our source code is precious! It is our Intellectual Property! And then: our precious source code is on developers’ machines, we must do everything in our power to protect these machines! And that’s a fallacy.&lt;&#x2F;p&gt;
+&lt;p&gt;It turns out, your source code itself, that treasured IP, is really not that special. Let’s think about it for a moment.&lt;&#x2F;p&gt;
+&lt;p&gt;How much of your code is truly unique and innovative? How much of it is copy&#x2F;pasted from Stack Overflow? How much is done by third party libraries you depend on? If you were given a chance to start from scratch and completely rewrite all your company’s software, how much of the end result would look exactly like your today’s code? (Ignoring, of course, those few who would jump at the opportunity because they haven’t yet had the privilege of spending countless years doing a migration project…) Unless you’re working on developing something new at the already cutting edge of software technology, your code is largely a glue holding various common pieces together. There aren’t many companies out there that have some secret sauce hidden in their code, and even if they do, that secret sauce is a tiny fraction of the whole code base.&lt;&#x2F;p&gt;
+&lt;p&gt;Here’s a thought experiment—Imagine that your source code suddenly goes public. What is the worst that would happen? Would some indie hacker just copy it and spin up a new business just like yours to become your biggest competitor over night? Or what if it is your biggest competitor getting access to your code? Would they go “ah-ha!” and replace their code with yours? Spoiler alert: no engineer I’ve ever worked with has had the thought while looking at someone else’s code “Wow this is great, we would never be able to write this better.”&lt;&#x2F;p&gt;
+&lt;p&gt;If exposing your source code was such a catastrophe, how do we explain all these software companies who make their code available to the public? &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Open-core_model#Examples&quot;&gt;Multiple very successful businesses&lt;&#x2F;a&gt; nowadays operate under that principle and chances are the company you work for is paying for some of them. It’s worth noting that most of the open-core or source-available software is not simple nor does it solve some trivial problem. Yet all these companies are doing well, commercially.&lt;&#x2F;p&gt;
+&lt;p&gt;These days, the code is rarely the source of competitive advantage. And if it is, it’s not down to how well or clever it’s written. What matters is how you position yourself in the market, how you acquire your customers, how you retain them, and how you convey your value to the customers. What also matters is your pricing model, your operational efficiency, your margins, and how well you control the cost over time. Notice how these have very little to do with the code you’ve written? As a matter of fact, the code a company writes is a result of those exact strategies. Even if we look at the software itself, there are multiple other factors about it that are more important than the source code. Are there bugs in production? How often and how quickly do they get fixed? How easy is it for a customer to get help when something isn’t working? How easy is it to get started and onboard new users? How reliable is your software? How often do you leak your customers&#x27; data and do they care?&lt;&#x2F;p&gt;
+&lt;p&gt;The true value of your code is not the source, but rather how well it supports the business model, how it’s operated and how it runs in production. And of these three, the most crucial bit is the latter - your source code running in production. That is the only thing truly worth protecting. So that code on your developer machine? Who cares.&lt;&#x2F;p&gt;
+</content>
+        
     </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/long-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
-<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+    <entry xml:lang="en">
+        <title>Your security team’s job is not security</title>
+        <published>2025-01-20T00:00:00+00:00</published>
+        <updated>2025-01-20T00:00:00+00:00</updated>
+        
         <author>
-            <name>Yangshun Tay</name>
-            <uri>https://linkedin.com/in/yangshun</uri>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/first-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://linkedin.com/in/yangshun</uri>
-        </author>
-        <category label="Hola" term="Hola"/>
-        <category label="Docusaurus" term="Docusaurus"/>
+        
+        <link rel="alternate" type="text/html" href="https://dorotaparad.ch/your-security-teams-job-is-not-security/"/>
+        <id>https://dorotaparad.ch/your-security-teams-job-is-not-security/</id>
+        
+        <content type="html" xml:base="https://dorotaparad.ch/your-security-teams-job-is-not-security/">&lt;p&gt;There is a very common misunderstanding in tech that I keep running into. Many people believe that a person hired by their company who has “security” in their title is there to ensure that your software and operations are secure. It’s especially heartbreaking to see new graduates who studied the topic and are looking for their first job in cybersecurity, full of hopes that they’ll get to fight the baddies, make things better, or at least make sure that software engineers are doing things properly.
+The truth is, when a company hires a CISO and invests in a security team, those people’s jobs have nothing to do with security. They are there to ensure &lt;strong&gt;compliance&lt;&#x2F;strong&gt;. It’s a very important job, but a rather different one from what the name implies. In fact, compliance and security are often at odds with each other.&lt;&#x2F;p&gt;
+&lt;p&gt;So what is the job of a CISO and the security team they may be in charge of?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-job-of-a-ciso&quot;&gt;The job of a CISO&lt;&#x2F;h2&gt;
+&lt;p&gt;No matter what the PR release may say, companies hire a C-level security person for one reason only - to ensure compliance with whatever security-ish requirements may be imposed on the business. Compliance in security boils down to convincing some third party authority that your company is doing a good enough job minimizing security risks. It’s important to highlight two things here: it’s not about the job being perfect, but merely good enough, and it’s not about eliminating the risks, but merely minimizing them. And, to be cynical, it’s not even about doing these things but rather convincing the stakeholders that you are. Hopefully it’s clear why we see so many cases of security theater out there.&lt;&#x2F;p&gt;
+&lt;p&gt;Putting the cynical view aside, the job of a CISO is really to craft a convincing narrative on how your company minimizes security risks. People to be convinced are usually associated with an external third party, which can fall in one of three categories:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Certifications (ISO 27001, SOC2, etc.), which are there to signal to other businesses that your company does good enough job minimizing security risks; these are represented by auditors&lt;&#x2F;li&gt;
+&lt;li&gt;Regulations (GDPR, CCPA, etc.), which are there to protect the rights of end-users in the absence of business incentives to do so; these are represented by respective government officials&lt;&#x2F;li&gt;
+&lt;li&gt;Insurance companies (usually cyberinsurance) - a discount on premiums may be contingent on companies’ security posture; represented by insurance sales people&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;As you can imagine, the stakeholders I’ve listed above have no idea about the specifics of your business. They also tend to have limited knowledge of software and technology in general. And your poor CISO needs to convince them that your company sufficiently minimizes security risks. It’s a tough job!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;security-team-s-dilemma&quot;&gt;Security team’s dilemma&lt;&#x2F;h2&gt;
+&lt;p&gt;Since security teams get created to ensure compliance, which is all about creating a convincing security narrative for non-technical, external stakeholders, you’d imagine they would be composed of people good at communication, or at least great at writing. But it is rarely the case.&lt;&#x2F;p&gt;
+&lt;p&gt;A lot of people working in security, and especially those bright-eyed new graduates joining the profession, do so because they love the idea of good security. They may be motivated by thinking about all the threats and ways to thwart them, or by laying down a foundation to do things “correctly”. Regardless of which flavor of cybersecurity these people are drawn to, almost no one gets into this discipline by thinking “wow, I really want my job to be maintaining paperwork and ensuring adherence to corporate procedures!”
+People who are motivated by the latter end up as auditors rather than security professionals. As a result, we have a large number of professionals who want to, and often believe they should, do one thing but are instead paid to do something completely different. It’s no surprise they would face pushback.&lt;&#x2F;p&gt;
+&lt;p&gt;There may be pushback from senior business leaders, who may not understand why should the company spend money or effort to implement this particular protection strategy over this other one which seems much simpler to grasp (and usually involves simply paying six figures for a specific tool).
+There may be pushback from other employees, who don’t want to do any extra steps or change any of their well-established procedures, and who are under pressure to deliver whatever their department is paid to do.
+There may be pushback from the tenured people in security organizations, who are comfortable with the status quo and may have strong attachment to “how we do things around here”.&lt;&#x2F;p&gt;
+&lt;p&gt;It can all be disheartening.&lt;&#x2F;p&gt;
+&lt;p&gt;Now imagine you’re a CISO, by nature a very specialized role, yet your organization is entirely separate from the structures where the actual work happens: the IT, software development, operations. You may have a passion for security, but all your company cares about is the optics. You have to make your company look good in front of people who care nothing about your business model, have no understanding of modern technology, and don’t even know what security is. It doesn’t exactly look like a dream job, does it?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;compliance-at-the-cost-of-security&quot;&gt;Compliance at the cost of security&lt;&#x2F;h2&gt;
+&lt;p&gt;Crafting a convincing narrative about a deeply nuanced, technical topic for people who don’t care about nuances and have limited technical knowledge requires finesse. If you also want that narrative to come with actual security practices that are fully integrated into your company’s daily operations, then that’s a whole other level of difficulty. It’s one that is far beyond the scope of compliance. Why bother then? It is tempting to optimize for the ease of audits. It is even more tempting to just blindly copy whatever someone else did that got them to pass their audit, even if what you’re copying doesn’t make sense in your situation.&lt;&#x2F;p&gt;
+&lt;p&gt;This is why so many businesses leak their customers’ data, get infected by ransomware, suffer random downtimes for unexplained reasons (if you don’t look, you don’t see; if you don’t see, you don’t have to report it) all the while having a fully staffed security team and investing over &lt;a href=&quot;https:&#x2F;&#x2F;www.iansresearch.com&#x2F;resources&#x2F;all-blogs&#x2F;post&#x2F;security-blog&#x2F;2024&#x2F;09&#x2F;05&#x2F;2024-security-budget-benchmark-report--key-findings&quot;&gt;13% of their IT budget&lt;&#x2F;a&gt; in security.&lt;&#x2F;p&gt;
+&lt;p&gt;The truth is, lazy compliance is often at odds with actual, proper security. The sad part is, in the industry today, the vast majority of compliance is of the lazy kind.&lt;&#x2F;p&gt;
+&lt;p&gt;The certification auditor doesn’t understand modern cloud technology? Instead of relying on cloud provider’s built-in security, which you get almost for free but which may be difficult to explain, your security team decides to go old-school and locks down access to corporate resources by only allowing specific IP addresses to connect. This means you need VPN. Some time later, &lt;a href=&quot;https:&#x2F;&#x2F;techcrunch.com&#x2F;2025&#x2F;01&#x2F;09&#x2F;hackers-are-exploiting-a-new-ivanti-vpn-security-bug-to-hack-into-company-networks&#x2F;&quot;&gt;hackers are happily using&lt;&#x2F;a&gt; your “secure” VPN client solution to gain access.&lt;&#x2F;p&gt;
+&lt;p&gt;Struggling to explain how your zero trust architecture makes endpoint protection obsolete? Instead of spending effort to document your reasoning, your security team decides to install spyware on all your employee machines. Some time later, spyware has a bug, &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;2024_CrowdStrike-related_IT_outages&quot;&gt;now none of your machines boot up&lt;&#x2F;a&gt;. Or perhaps your “secure” spyware provider was hacked again and all the &lt;a href=&quot;https:&#x2F;&#x2F;securityboulevard.com&#x2F;2024&#x2F;08&#x2F;mobile-guardian-hacked-again-richixbw&#x2F;&quot;&gt;data from your devices got wiped&lt;&#x2F;a&gt;. Or that tool that was supposed to &lt;a href=&quot;https:&#x2F;&#x2F;techcrunch.com&#x2F;2024&#x2F;12&#x2F;27&#x2F;cyberhaven-says-it-was-hacked-to-publish-a-malicious-update-to-its-chrome-extension&#x2F;&quot;&gt;prevent credential theft gets used by the attackers&lt;&#x2F;a&gt; to do precisely that.&lt;&#x2F;p&gt;
+&lt;p&gt;You may argue that no software is bug free and any software can get hacked and that is no reason not to use security tools. I agree. But the risk that these tools mitigate better be much greater than the inherent risks coming with the tools themselves. In a lot of cases, that equation doesn’t check out. In a lot of cases, no one even does that sort of analysis, because the job is not to actually minimize the security risk but to convince the third party stakeholders that the company is doing so. And if the company is paying six or seven figures for the cause, that surely must be sufficient, isn’t it?&lt;&#x2F;p&gt;
+&lt;p&gt;But it’s not just about using paid tools as shortcuts. Lazy compliance can lead to other contradictions. Here’s my favorite quote from last year (the person asked to remain anonymous for obvious reasons, but it’s not some obscure tiny company):&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“So a ‘senior IT security engineer’ in my company wants me to email credentials for an internal system to some external penetration testers.&lt;&#x2F;em&gt; &lt;br&#x2F;&gt;
+&lt;em&gt;I confirmed with him via chat and even got on a phone call with him and as far as I can tell it&#x27;s a genuine request but I can&#x27;t tell if I&#x27;m being trolled right now or not.”&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;So if your security team’s job is not security but simply compliance, then whose job is it to make sure your company’s software systems are secure? The cynical view would be - it’s no one’s job. Businesses routinely ignore security in favor of compliance, meaning security isn’t valuable enough to make it anyone’s job. But considering that the global number of successful attacks increases year over year, and the insurance companies are getting more assertive on what sort of losses they cover and when, ignoring actual security is not sustainable in the long run. So whose job is it? I’ll let you answer this one for yourself.&lt;&#x2F;p&gt;
+</content>
+        
     </entry>
 </feed>

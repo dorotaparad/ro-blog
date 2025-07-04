@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"><url><loc>https://your-docusaurus-site.example.com/archive</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/authors</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/authors/all-sebastien-lorber-articles</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/authors/yangshun</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/first-blog-post</loc><lastmod>2025-06-22</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/long-blog-post</loc><lastmod>2025-06-22</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/markdown-page</loc><lastmod>2025-06-22</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/mdx-blog-post</loc><lastmod>2025-06-22</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/welcome</loc><lastmod>2025-06-22</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://dorotaparad.ch/</loc>
+    </url>
+    <url>
+        <loc>https://dorotaparad.ch/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://dorotaparad.ch/what-startups-are-about/</loc>
+        <lastmod>2025-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://dorotaparad.ch/your-security-teams-job-is-not-security/</loc>
+        <lastmod>2025-01-20</lastmod>
+    </url>
+    <url>
+        <loc>https://dorotaparad.ch/your-source-code-is-not-that-special/</loc>
+        <lastmod>2025-02-03</lastmod>
+    </url>
+</urlset>
