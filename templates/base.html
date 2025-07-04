@@ -56,7 +56,7 @@
     {% set current_year = now() | date(format="%Y") | int %}
     <div>&copy; {{ current_year }} Dorota Parad</div>
     <div>
-      <a class="site_title" href="{{base_url}}">{{config.title}}</a>
+      <a class="site_title" href="{{base_url | safe}}">{{config.title}}</a>
       {{ macros::social_list(classes="header_list", bsize="small") }}
     </div>
     {% endblock footer %}

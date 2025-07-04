@@ -7,7 +7,7 @@
 <nav id="overlord" class="overlord">
   {% set base_url = get_url(path="/", lang=lang) %}
   <div>
-    <a class="site_title" href="{{base_url}}">{{config.title}}<div>{{ config.description | as_str |
+    <a class="site_title" href="{{base_url | safe}}">{{config.title}}<div>{{ config.description | as_str |
         markdown(inline=true) | safe }}</div></a>
     {{ macros::social_list(classes="header_list", bsize="small") }}
   </div>

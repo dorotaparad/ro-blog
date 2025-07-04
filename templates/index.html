@@ -28,7 +28,7 @@
     {% endif %}
     <article id="{{page.title}}" class="post_list_item">
         <h1 class="article_title">
-            <a href="{{page.permalink}}" id="article_link">{{page.title}}</a>
+            <a href="{{page.permalink | safe}}" id="article_link">{{page.title}}</a>
         </h1>
         {{ macros::frontmatter(
         classes="",
@@ -37,7 +37,7 @@
         read_time=page.reading_time
         ) }}
         <div class="post_preview">
-            <img src="{{post_img | default(value=config.extra.banner.default_image) | safe}}"
+            <img src="{{post_img | default(value=config.extra.banner.default_image | safe) | safe}}"
                 alt="{{page.extra.alt | default(value=config.extra.banner.default_alt)}}">
             <div>
                 <p class="article_content">
@@ -47,7 +47,7 @@
                     {{ page.content | striptags | truncate | safe }}
                     {%- endif %}
                 </p>
-                <a class="button small" href="{{page.permalink}}">Continue Reading →</a>
+                <a class="button small" href="{{page.permalink | safe}}">Continue Reading →</a>
             </div>
         </div>
     </article>
