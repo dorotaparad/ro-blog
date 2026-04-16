@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="author" content="Dorota Parad">
+  <meta name="description" content="One of the most annoying myths in software development that just won’t die is the supposed tradeoff between speed and quality. The common thinking goes: quality, speed, cost - pick 2. And because time is money, this in turn gets simplified to speed OR qua…"/>
+  <!-- SEO -->
+  
+  <title> Quality or speed - why not both? | Value Added Thoughts </title>
+  <meta property="og:image" content="https://dorotaparad.ch/quality-or-speed/eathavecake.jpg" />
+  <meta property="og:description" content="One of the most annoying myths in software development that just won’t die is the supposed tradeoff between speed and quality. The common thinking goes: quality, speed, cost - pick 2. And because time is money, this in turn gets simplified to speed OR qua…" />
+                    
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- js -->
+  <script src="https://kit.fontawesome.com/fc233bb6f8.js" crossorigin="anonymous"></script>
+
+  <!--  css -->
+  <link id="themeCSS" rel="stylesheet"
+    href="/default.css" />
+
+  <!-- fonts -->
+  <!-- preload  -->
+  <link rel="preload"
+    href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,500,500i,600,700,800,900|Raleway"
+    as="style">
+  <!-- load -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,500,500i,600,700,800,900|Raleway">
+  
+
+  
+  
+  <link rel="alternate" type="application/atom+xml"
+    title="Value Added Thoughts RSS" href="https://dorotaparad.ch/atom.xml">
+  
+  
+</head>
+
+<body onload="main();">
+
+  
+
+
+<div id="overlord" class="overlord">
+  
+  <div>
+    <a class="site_title" href="https://dorotaparad.ch">Value Added Thoughts<div>Dorota Parad's blog</div></a>
+    
+<ul class="social_list header_list">
+    
+
+
+
+<li class="button small font_faint">
+    <a href="https://bsky.app/profile/dorotaparad.bsky.social" target="_blank">
+        
+        <i class="fa-brands fa-bluesky fa-bluesky"></i>
+    </a>
+</li>
+
+
+
+<li class="button small font_faint">
+    <a href="https://www.linkedin.com/in/dorota-parad/" target="_blank">
+        
+        <i class="fa-brands fa-linkedin fa-linkedin"></i>
+    </a>
+</li>
+
+
+
+
+
+<li class="button small font_faint">
+    <a href="https://dorotaparad.ch/atom.xml" target="_blank">
+        atom
+        <i class="fas fa-rss"></i>
+    </a>
+</li>
+
+
+
+</ul>
+
+  </div>
+</div>
+<nav class="short">
+  
+  
+  <div>
+    <a href="https:&#x2F;&#x2F;dorotaparad.ch&#x2F;about">About me</a>
+    <a href="https:&#x2F;&#x2F;dorotaparad.ch&#x2F;public-speaking">Public speaking</a>
+  </div>
+</nav>
+
+<section class="post_container">
+  <article>
+    
+    <h1 class="article_title">Quality or speed - why not both?</h1>
+    
+<ul class="frontmatter frontmatter_page" id="frontmatter">
+    <li>
+        <time class="article_time" datetime="2026-04-16">April 16, 2026</time>
+    </li>
+    <span class="dotDivider" ></span>
+    <li> 17 min read</li>
+</ul>
+
+    
+    <img src="eathavecake.jpg" alt="Hand drawn picture of a stick figure putting a slice of what looks like a strawberry cake in their mouth, while simultaneously holding another slice of said cake">
+    
+    <p>One of the most annoying myths in software development that just won’t die is the supposed tradeoff between speed and quality. The common thinking goes: quality, speed, cost - pick 2. And because time is money, this in turn gets simplified to speed OR quality. It’s one of those things that makes me wonder if I live in some parallel universe with different rules of physics, surrounded by people with magical powers. It’s especially frustrating when people brag that their LLMs generate code fast AND of decent quality, as if it’s some sort of Christmass miracle.</p>
+<p>I’m going to be blunt. If you believe that the quality in software costs you extra, either money or time, you’re doing software development wrong.</p>
+<p>I understand where this madness comes from. The primary source is our infatuation with simple terms explaining complex phenomena, even if things get simplified beyond usefulness. That’s what happened here: we simplified “quality, speed, cost - pick 2” down to “speed or quality” because in software time implies developer time, which is very much money. But the “quality, speed, cost - pick 2” is already a simplification of the <a rel="noopener external" target="_blank" href="https://en.wikipedia.org/wiki/Project_management_triangle">iron triangle</a> concept from project management, where the quality of the project is constrained by scope, time, and cost. Notice how the triangle itself doesn’t include quality, it’s the quality that’s defined by trading off those three constraints. The triangle itself emerged quite a while back outside of software context and was quickly recognized as too simplistic, replaced by a theory of constraints. So our quality vs speed tradeoff is a simplification of a simplification of a simplification. And it’s not even true to begin with! But hey, it seems plausible and saying it makes you appear clever…</p>
+<p>In reality, when building software the quality and speed go hand in hand. They’re inseparable like a young couple who just signed a joint mortgage (in this economy...) When the quality goes down, so does the speed. High speed is correlated with high quality. I’m not making this up, this has been a consistent albeit often overlooked result of each year’s <a rel="noopener external" target="_blank" href="https://dora.dev/research/">DORA report</a>. And while the report has its problems, this particular part is hard to fudge. Teams that report short lead time to changes and frequent deployments (that’s your speed) also report less rework and faster time to resolution (that’s your quality). Miracle! They must surely be costing a lot. Except we also know the opposite is true - it’s the big projects suffering from quality issues that end up expensive. Time is indeed money.</p>
+<p>If we collectively, as an industry know there is no tradeoff between speed and quality, then why won’t this myth die? I have a theory. We’re human, we believe we’re rational and follow logic, but we are really prone to biases and distortions. The fact that speed and quality correlate when making software is, paradoxically, responsible for the belief that speed and quality need to be traded off.</p>
+<p>To unpack it, let’s examine the factors that make individual engineers slow to deliver working software.</p>
+<ul>
+<li>
+<p><strong>Lack of familiarity.</strong> This is an obvious one - if we’re not used to something, it takes more time for us to navigate it. It’s true for technology (language, tech stack, coding patterns, architecture), but also the domain space, the way of working, the way the code is organized. This is a self-limiting condition, in that the more time spent with the unfamiliar, the more familiar it gets.</p>
+</li>
+<li>
+<p><strong>Scope.</strong> Bigger scope means more time to think about the solution - it’s harder to see what the right solution is, there are more dependencies, it’s not immediately obvious where to start. Bigger scopes also have a tendency to harbor more unknown unknowns than smaller scopes. The larger the scope, the higher chance of mistakes and, at the same time, longer the wait until we can get feedback, which results in more rework. I should note that the relationship between the scope size and all these things isn’t necessarily linear and as the scope grows, the time to implement won’t grow proportionally.</p>
+</li>
+</ul>
+<p>Now, most people without a deep understanding of how software is made - this includes a lot of company executives out there - tend to stop here. They start looking for solutions to these two very obvious problems. So we end up with training and hiring. But mostly hiring. We hire people who are supposed to be skilled in a given technology and problem space, and we hire more people to spread the scope across more individuals. Does that work? To an extent, it does. And it causes other problems. That’s because scope and lack of familiarity are just the tip of the iceberg. Everyone who has done even a bit of hands-on work in software knows there are more things that slow us down.</p>
+<ul>
+<li>
+<p><strong>Changing requirements.</strong> If the requirements change while we’re working on a thing, we need to start over, duh! If requirements change after we’ve done a thing, we need to redo it. It’s obvious, so obvious that it’s sometimes forgotten as a factor for slowing engineers down.</p>
+</li>
+<li>
+<p><strong>Context switching.</strong> Switching away from a task forces us to spend time getting our bearings once we get back to it. This means we’re wasting time with every switch and every interruption. There’s been a lot of research done on this (<a rel="noopener external" target="_blank" href="https://www.apa.org/topics/research/multitasking">Sources &amp; Further reading in this article</a> has a nice list), and at this point it’s common knowledge among engineering leaders.</p>
+</li>
+<li>
+<p><strong>Bugs.</strong> If something doesn’t work as expected, we first need to spend time to understand what the problem is, decide if it interferes with our work, and if so, spend more time to find where it originated and eventually to fix it. Those can be bugs lurking undiscovered in our codebase, or bugs introduced as part of work itself. This is a dead giveaway that the relationship between speed and quality is not a tradeoff, but rather a correlation.</p>
+</li>
+<li>
+<p><strong>Tech debt.</strong> There are different kinds of tech debt and each type has a different impact on the speed of development, all of them detrimental. Poorly named methods and variables, lack of documentation, workarounds and hacks, missing tests, questionable architecture decisions - all of these make it harder to understand the code when applying changes. What’s more, they introduce an element of hesitation, since it’s harder to tell what change may break existing code or have an unintended side effect. This means either more thinking and investigation before writing the new code, or more rework as various bugs emerge.</p>
+</li>
+<li>
+<p><strong>Dependencies.</strong> Dependencies are a bit weird in the sense they’re unavoidable (every business depends on their customers, at the very least) and whether they slow us down or speed us up comes down to how they’re structured. In any case, they encapsulate additional scope, which means more time to think about the solution. Poorly structured dependencies may create outright blockers, as we wait until another piece is ready, or its bugs fixed. They also tend to be unfamiliar, which means some time has to go towards understanding how to integrate or use the dependency. A special type of dependency is dependency on other people. Those rarely have well-defined APIs and are usually poorly documented (this was a joke, please laugh), and consequently require even more time to handle than the software kind.</p>
+</li>
+<li>
+<p><strong>Out of band requests.</strong> Sometimes we get asked to do things that aren’t related to our tasks. Things like helping a teammate, answering questions from a manager, attending an all-hands meeting. Those always mean context switching, which is bad (see above), but also, more directly - if we’re working on something else, we’re not working on the work, hence the work takes more time.</p>
+</li>
+</ul>
+<p>If we take all of this in - it’s a lot. A lot more than the obvious scope and lack of familiarity we started with. It seems like it’s impossible to do any work without hitting at least a few of these obstacles. And what’s especially tragic, trying to remediate any of the above points in isolation usually makes other points worse. Adding people to handle the scope introduces more dependencies, since now they have to coordinate. Freezing requirements means adding tech debt, since the world still changes and we’ll have to change the software in the future. Limiting out of band requests may result in less familiarity with the domain space and the bigger code base for the future work. This is how most companies end up being so slow - they look at each problem in isolation, trying to solve it one by one, performing a series of local optimizations which in turn generate more problems elsewhere.</p>
+<p>So that’s the speed. What about quality? What are the factors in software development that result in lower quality?</p>
+<ul>
+<li><strong>Lack of familiarity.</strong> We don’t know what we don’t know. Not understanding the technology or domain space means we’re more likely to make a mistake.</li>
+<li><strong>Scope.</strong> Bigger problems to solve mean a bigger or more complex solution, and bigger solution means higher likelihood of bugs. It’s statistics.</li>
+<li><strong>Changing requirements.</strong> If we don’t manage to keep up with the requirements, we’ll deliver a solution to a wrong problem. While this may not always mean “bad” quality, it certainly isn’t “good” quality either.</li>
+<li><strong>Context switching.</strong> Having our attention divided between various interruptors, we’re more likely to make mistakes.</li>
+</ul>
+<p>…hold on! Is that the same list as the one above? Yes, yes it is. Anything that increases uncertainty and complexity will lead to more mistakes. And in fact, I could have reduced this list to only those two: uncertainty and complexity, but where’s fun in that? Any mess in software development is due to one of the two: uncertainty and complexity, and our tragic attempts to mitigate or control them.</p>
+<p>Here we can clearly see that the mistakes caused by the same factors that slow us down, will force us to choose - do we spend time trying to fix the problems, or simply move on to save time. This is the illusionary tradeoff between quality and speed. It’s illusionary, because it’s a vicious cycle. Bugs and tech debt slow down adding new features and making changes, as well as fixing future bugs and removing future tech debt. But once we’re already so terribly slow, we perceive the time we spend on improving the quality as time we’re not working on delivery, and therefore another factor that slows us down. We start seeing quality as a time sink that could be traded off for a little more speed. Sadly, sacrificing quality is a local, short-term optimization that doesn’t buy us anything on the scale of our software’s lifetime.</p>
+<p>But I have good news. As an industry, we have already figured out how to address the core issues that both slow us down and reduce the quality of our software. We already know how to mitigate the uncertainty and complexity that are at the root of it.</p>
+<ul>
+<li>
+<p><strong>Long-lived teams organized along the value streams.</strong> Instead of treating our engineers as interchangeable, we group them into stable teams corresponding to a particular business area. That way, the engineers become very <strong>familiar</strong> with the domain, tech stack, and - this should not be underestimated - working with each other.</p>
+</li>
+<li>
+<p><strong>Small, cross-functional teams.</strong> Each team should have a collective pool of knowledge (familiarity again) from the whole range required to deliver the software to the end users. By keeping that knowledge within the team, we capitalize on familiarity of people with each other and minimize <strong>dependencies.</strong> If every team is this way, we’ll also see fewer <strong>out of band requests</strong>, since when someone needs help with something they’re not an expert in, they will ask their own team members first.</p>
+</li>
+<li>
+<p><strong>Pairing.</strong> Pair programming, pair testing, code reviews - depending on what the work is, there are a number of activities that could be done by a single person, but they’re way more effective when done by two. This is controversial as a technique for speeding up, because having two people do one person’s job is slower in the short term (we’re doubling our time!) But in the long term, this increases <strong>familiarity</strong> with the codebase and significantly reduces rework by reducing <strong>bugs</strong> and <strong>tech debt.</strong></p>
+</li>
+<li>
+<p><strong>Breaking down work into smaller pieces.</strong> We break down our Big Scope into smaller areas, aligned to how business value is generated. Then we break that down further into pieces that could each be worked as independently as possible. We break down our big projects into stages, stages into smaller objectives until we get a queue of tasks that are self-contained. That’s how we conquer <strong>scope.</strong> If done right, there should be minimal <strong>dependencies</strong> for each task. And once we break a big thing down into smaller things, no need to think about the big thing until all the small things are done - that helps to reduce <strong>context switching.</strong></p>
+</li>
+<li>
+<p><strong>Modular architecture.</strong> Keeping things modular makes it easier to manage <strong>scope</strong>, since the scope is encoded in architecture. When the software is separated into logical, self-contained modules, <strong>dependencies</strong> become easier to manage and there’s fewer of them in the first place.</p>
+</li>
+<li>
+<p><strong>Boundaries marked by contracts.</strong> This applies both to architecture and the teams themselves. Boundaries between modules should have clearly documented interfaces, which could be relied upon and tested. Each team should have interfaces too, that is, rules of how/when/whom to contact. These don’t need to be super rigid, as long as they are enforced and easy to discover. This makes dealing with <strong>dependencies</strong> much easier, as we only ever need to worry about our own scope and our boundaries. It also makes <strong>out of band requests</strong> more manageable, as all such requests should conform to the team’s contract.</p>
+</li>
+<li>
+<p><strong>Integrating often.</strong> Whatever small change we implement, should be integrated with the rest of the software without delay. This minimizes rework due to <strong>changing requirements</strong>, because we have a smaller chunk to undo and can respond to the changes after each little bit instead of after the whole big thing is complete. It also makes testing easier, thus reducing the overall number of <strong>bugs.</strong></p>
+</li>
+<li>
+<p><strong>Single piece flow.</strong> Once an engineer starts working on our small chunk of work, they do not stop until it’s in front of our customers. Only then they pick up another task. This minimizes <strong>context switching.</strong></p>
+</li>
+<li>
+<p><strong>Automating everything.</strong> Every repeatable part of work - testing, deployment, data collection - should be automated. While this seems like extra work, therefore causes us to go slower at first, in the long term it saves time, as automation tends to do. We also end up having fewer <strong>bugs</strong>, as they are discovered and can be fixed early. And since automated tasks are tasks no one has to do, it means less <strong>context switching</strong> for the team.</p>
+</li>
+<li>
+<p><strong>Software teams owning the whole lifecycle.</strong> By having the engineers responsible for operating their software, we reduce the number of hand-offs, which means fewer <strong>dependencies</strong> and more <strong>familiarity</strong> with the business context. It also means, and not many people consider this, reducing the <strong>tech debt</strong> that tends to creep up at the hand-off boundaries in the grey zones which are “that other team’s job”.</p>
+</li>
+<li>
+<p><strong>Talking to customers directly.</strong> Where this isn’t possible (sometimes it really isn’t), using proxies like usage statistics, anonymous surveys, or recording and replaying users’ UI interactions (oooh, surveillance! Proper user research is better, but this will do in a pinch.) This helps discover and anticipate <strong>changing requirements</strong> before they result in rework. It also helps with <strong>bugs</strong> - by understanding the customer, it’s easier to tell which bugs are important to fix and which we can get away with, or which bugs are, in fact, features.</p>
+</li>
+</ul>
+<p>All of this should be very familiar to you. It’s the whole agile movement (which is over 20 years old at this point!) plus DevOps which is its natural extension (not much younger than agile). If you sprinkle in microservices (~15 years old or so), I won’t be mad - it’s DevOps plus modular architecture plus a business-centric approach to scope breakdown.</p>
+<p>Notice how most of these solutions assume that the unit producing output is a software team rather than individual engineers. That changes a lot. As soon as we have a scope that’s bigger than one person, we really should ditch trying to measure the output of an individual, unless to adjust who’s on what team. Focusing on individuals means hyperlocal optimizations that always lead to suboptimal results.</p>
+<p>Another thing to notice in the setup above is that you get quality pretty much for free. In fact, you have to have special talent to write buggy software under these conditions. <em>(Aside: I’ve had the misfortune to encounter one or two such talented engineers in my past, but even then, the impact of their special talent was reduced to zero by their team.)</em> And instead of quality, you can insert any -ility: reliability, security, even accessibility - it’s super easy to plug any of these into the system at no extra cost and very little slowdown, if at all. It’s because, as we’ve determined, low quality and slow delivery are caused by the same issues at the root - complexity and uncertainty in their many flavors as I’ve described in the beginning, so obviously the solutions addressing those root causes will dissolve both the slowness and low quality. That’s the beauty of systemically fixing the root causes instead of symptoms.</p>
+<p>Ok then, if we have all these wonderful tools at our disposal to make software teams go faster and deliver high quality, why isn’t every software organization working this way? Why do startups still talk as if quality comes at a cost of speed and you’re supposed to break stuff if you want to move fast? The problem here is that the remedies I’ve listed are an all or nothing proposition. Adopting them piecemeal doesn’t make things better, on the contrary, it often introduces more complexity by adding friction at the boundaries. But if you already have a lot of people, each with their own vision and political standing, who have invested in locally-optimized solutions to deal with uncertainty and complexity, it’s really hard to adopt all these practices wholesale. Same goes for when you’re starting a new company and feel immense pressure to not waste any time. In that case, stopping to think about how to structure your work and investing in anything that pays off long term at a minor short term speed loss seems perilous. Which means the majority of software companies will be stuck with a suboptimal setup, paying the price in slowness and quality and struggling to break free of the vicious cycle.</p>
+<p>I see some hope on the horizon though. At a risk of sounding like another one of those kooky out of touch tech executives, I see a chance that AI will save us. Not in the way that current AI companies peddle to investors, but indirectly. Much like COVID forced many crusty organizations to digitize at a speed previously unthinkable, the AI may just as well force other crusty organizations to adopt all the modern ways of working I've described, else they won’t see the benefits. But that feels like another article that I should probably write, so let me stop here.</p>
+
+    
+  </article>
+</section>
+
+   
+
+  <footer>
+    
+    
+    <div>&copy; 2026 Dorota Parad</div>
+    <div>
+      <a class="site_title" href="https://dorotaparad.ch">Value Added Thoughts</a>
+      
+<ul class="social_list header_list">
+    
+
+
+
+<li class="button small font_faint">
+    <a href="https://bsky.app/profile/dorotaparad.bsky.social" target="_blank">
+        
+        <i class="fa-brands fa-bluesky fa-bluesky"></i>
+    </a>
+</li>
+
+
+
+<li class="button small font_faint">
+    <a href="https://www.linkedin.com/in/dorota-parad/" target="_blank">
+        
+        <i class="fa-brands fa-linkedin fa-linkedin"></i>
+    </a>
+</li>
+
+
+
+
+
+<li class="button small font_faint">
+    <a href="https://dorotaparad.ch/atom.xml" target="_blank">
+        atom
+        <i class="fas fa-rss"></i>
+    </a>
+</li>
+
+
+
+</ul>
+
+    </div>
+    
+  </footer>
+</body>
+
+</html>
