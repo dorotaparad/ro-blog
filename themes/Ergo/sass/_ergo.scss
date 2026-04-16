@@ -539,11 +539,10 @@ footer {
 }
 
 nav.pagination {
-    padding: 25px;
-    padding-bottom: 50px;
+    background-color: $background;
+    max-width: 800px;
+    border: none;
     margin: 0 auto;
-    padding-top: 45px;
-    margin-top: 75px;
     display: block;
     z-index: 100;
     position: relative;
