@@ -67,7 +67,7 @@ If you’d like me to speak at your event, [send me an email](mailto:dorota@rhos
 
   <div class="event-item">
   <h2><a href="https://devopscon.io/berlin/" target="_blank">DevOpsCon Berlin 2024</a></h2>
-  <h3>Unintended consequences of well-meaning changes</h3>
+  <h3>Calculating the unquantifiable? How to estimate ROI on security</h3>
   <div>
     <p>How to put a number on the cost of something that may not even happen? How to assign value to abstract and subjective constructs like “brand reputation” or “customer trust”? How do we know if we’re spending enough on security, and how to tell if we’re spending too much?</p>
     <p>Assuming we have the budget for software security, where should we invest it? And in the absence of a budget, what can we do to obtain it?</p>
